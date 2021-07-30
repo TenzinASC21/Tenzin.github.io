@@ -1,0 +1,67 @@
+body{
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/27cd4863-d598-4477-a9ba-465230b134e0/ddr4zkh-96ecd4de-e3ba-4b63-a94f-09c7228ee956.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzI3Y2Q0ODYzLWQ1OTgtNDQ3Ny1hOWJhLTQ2NTIzMGIxMzRlMFwvZGRyNHpraC05NmVjZDRkZS1lM2JhLTRiNjMtYTk0Zi0wOWM3MjI4ZWU5NTYuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.7uHnGrHH7A6DbjPhI6rAYKZvi6tosvmAl1f1fBaUD0k');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.shrek:hover{
+width:100px;
+border: plum groove 5px;
+}
+
+h1{
+    color: white;
+    font-weight: bold;
+    font-family: fantasy;
+
+}
+
+h1:hover{
+    border: plum outset 5px;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.nav:hover{
+    background-image: url('https://i.pinimg.com/originals/0b/59/34/0b5934b623f3c6f5377f221959d77982.gif');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h2{
+    color: white;
+    font-family: fantasy;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.gameImage{
+    width: 250px;
+}
+
+.gameImage:hover{
+    width: 350px;
+}
+
+p{
+    color: white;
+    font-size: 30px;
+    font-family: fantasy;
+    text-align: center;
+    opacity: 10%;
+}
+
+p:hover{
+    opacity: 100;
+}
+
+.games{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
