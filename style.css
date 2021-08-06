@@ -65,3 +65,85 @@ p:hover{
     justify-content: space-evenly;
     align-items: center;
 }
+
+@media(max-width:1320px){
+    .games{
+        flex-direction: column;
+        align-items: center;
+    }
+    body{
+    background-image: url('https://danbooru.donmai.us/data/original/88/df/88dfa3bb9c56af5eec60b88a9fc6c7e2.gif');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    }
+}
+
+@media(max-width:780px){
+    h1{
+        font-size: 20px;
+    }
+}
+
+@media(max-width:740px){
+    p{
+        font-size:20px;
+    }
+
+    .gameImage{
+        width: 200px;
+    }
+}
+
+@media(max-width:605px){
+    p{
+        font-size:15px;
+    }
+
+    h2{
+        font-size:30px
+    }
+
+    .gameImage{
+        width: 100px;
+    }
+}
+
+@media(max-width:320px){
+    p{
+        font-size: 10px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    .gameImage{
+        width: 80px;
+    }
+
+    .gameImage:hover{
+        width: 100px
+    }
+
+    h1{
+        font-size: 10px;
+    }
+
+    .shrek{
+        width: 30px;
+    }
+}
+
+#arrow{
+    display: flex;
+    justify-content: center;
+}
+
+#down{
+    width: 50px;
+}
+
+#down:hover{
+    width: 120px;
+}
